@@ -6,7 +6,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <script async defer>
+
+    </head>
+    <body>
+        <canvas id="canvas"></canvas>
+        
+                <script async defer>
         var canvas = document.getElementById("canvas");
 var draw = canvas.getContext("2d");
 var dx = 0.01;
@@ -76,8 +81,5 @@ function animate() {
 }
 animate();
         </script>
-    </head>
-    <body>
-        <canvas id="canvas"></canvas>
     </body>
 </html>
